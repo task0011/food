@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial Rounded MT Bold;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+/*navbar css*/
+.navbar{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15px;
+    position: absolute;
+    
+}
+.nav_left{
+   
+    margin-left: 35px;
+    
+}
+.nav_right{
+    margin-right: 30px;
+}
+
+.nav_right ul{
+    font-size: 19px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav_right li:hover{
+    font-size: 19px;
+    border-bottom: 2px solid rgb(179, 128, 32);
+    gap: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.h1_hi{
+    color: rgb(208, 158, 49); 
+    font-size: 29px;
+}
+
+
+
+/*head section css*/
+
+.head_section{
+    position: absolute;
+    top: 70px;
+    height: 600px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.head_discription{
+    height: 400px;
+    width: 50%;
+    /* background-color: bisque; */
+    text-align: start;
+    padding-left: 70px;
+   gap: 20px;
+}
+
+.head_image{
+    height: 400px;
+    width: 50%;
+    /* background-color: rgb(189, 151, 105); */
+}
+
+.head_title{
+    font-size: 40PX;
+    font-weight: 10px;
+    color: black;
+    width: 320px;
+}
+
+.head_paragraph{
+    padding-top: 30px;
+    width: 350;
+    font-size: 25px;
+}
+
+.head_btn button{
+    font-size: medium;
+    border: transparent ;
+    margin-top: 30px;
+    border-radius: 100px;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(161, 108, 10);
+    color: white;
+}
+
+.head_food_image{
+    margin-top: -80px;
+    height: 550px;
+    width: 580px;   
+}
+
+
+/* items section css */
+
+.items_section{
+    height: 300px;
+    width: 100%;
+    /* background-color: bisque; */
+    margin-top: 790px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+.items_center{
+    height: 650px;
+    width: 100%;
+    gap: 90px;
+    /* background-color: rgb(208, 145, 51); */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.NOODELS{
+    display: block;
+    align-items: start;
+    border-radius: 35px;
+    margin-left: 5px;
+    padding: 5px;
+    height: 350px;
+    width: 250px;
+    padding-left: 30px;
+    background-color: rgba(177, 176, 174, 0.687);
+}
+
+.noodles_image{
+    margin-top: -50px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.theam_head{
+    font-size: 25px;
+}
+.theam_paragraph{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.price{
+    margin-top: 20px;
+    color: brown;
+    font-size: 20px;
+}
+
+/*fries section*/
+
+.head_section{
+    position: absolute;
+    top: 70px;
+    height: 600px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}

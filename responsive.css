@@ -1,0 +1,229 @@
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        font-family: Arial Rounded MT Bold;
+        background-image: url('bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .navbar{
+        height: 40px;
+        width: 100%;
+        position: absolute;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 8px;
+        position: absolute;
+    }
+    .h1_hi{
+        font-size: 15px;
+    }
+    .nav_left{
+       
+        margin-left: 10px;
+        
+    }
+    .nav_right{
+        margin-right: 10px;
+    }
+    
+    .nav_right ul{
+        font-size: 10px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .nav_right li:hover{
+        font-size: 8px;
+        border-bottom: 1px solid rgb(179, 128, 32);
+        gap: 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+
+
+
+    /*head section css responcive*/
+    
+.head_section{
+    position: absolute;
+    top: 70px;
+    height: 300px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head_discription{
+    height: 150px;
+    width: 100%;
+    margin-top: 40PX;
+    align-items: center;
+    text-align: center;
+    /* background-color: bisque; */
+    
+}
+
+.head_image{
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    /* background-color: rgb(189, 151, 105); */
+}
+
+.head_title{
+    font-size: 15PX;
+    font-weight: 2px;
+    color: black;
+    width: 50%;
+    text-align: center;
+}
+
+.head_paragraph{
+    text-align: center;
+    padding-top: 5px;
+    width: 50%;
+    font-size: 10px;
+}
+.head_btn {
+    display: none;
+    /* margin-left: 60px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.head_btn button{
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+    border: 0 solid rgb(161, 108, 10);
+    border-radius: 50px;
+    height: 10px;
+    width: 50px;
+    background-color: rgb(161, 108, 10);
+    color: white;
+}
+
+.head_food_image{
+    margin-top: auto;
+   align-items: center;
+    height: 180px;
+    width: 200px;   
+    margin-left: auto;
+}
+
+/*items section*/
+
+.items_section{
+    height: 580px;
+    width: 100%;
+    overflow: scroll;
+    /* background-color: bisque; */
+    margin-top: 220px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.items_center{
+    height: 200px;
+    width: 100%;
+    /* background-color: rgb(208, 145, 51); */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.NOODELS{
+   
+    background-color: rgba(177, 176, 174, 0.687);
+    width: 120px;
+    height: 180px;
+    border-radius: 15px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+
+}
+
+.noodles_image{
+    margin-left: -20px;
+    height: 100px;
+    width: 100px;
+}
+.theam_head{
+    margin-top: 5px;
+    font-size: 15px;
+    align-items: start;
+    text-align: start;
+}
+
+.theam_paragraph{
+    align-items: start;
+    text-align: start;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 90px;
+}
+
+.price{
+    align-items: start;
+    text-align: start;
+    margin-top: 10px;
+   
+    color: brown;
+    font-size: 20px;
+}
+
+
+
+.head_section{
+    position: absolute;
+    top: 70px;
+    height: 300px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
